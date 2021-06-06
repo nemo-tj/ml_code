@@ -2,7 +2,7 @@
 # @Author: nemo-tj
 # @Date:   2021-06-06 14:43:47
 # @Last Modified by:   nemo-tj
-# @Last Modified time: 2021-06-06 14:50:06
+# @Last Modified time: 2021-06-06 15:33:29
 import numpy as np
 import matplotlib.pyplot as plt
 from activation import Activation
@@ -26,4 +26,5 @@ if __name__ == '__main__':
   plt.plot(x, Sigmoid(x)()[0], label ='Sigmoid forward')
   plt.plot(x, Sigmoid(x)()[1], label ='Sigmoid backward')
   plt.legend(loc='best')
+  plt.grid()
   plt.show()

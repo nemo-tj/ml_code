@@ -2,7 +2,7 @@
 # @Author: nemo-tj
 # @Date:   2021-06-06 15:01:38
 # @Last Modified by:   nemo-tj
-# @Last Modified time: 2021-06-06 15:06:03
+# @Last Modified time: 2021-06-06 15:33:42
 
 from header import *
 
@@ -24,4 +24,5 @@ if __name__ == '__main__':
   plt.plot(x, Identity(x)()[0], label='identity_forward')
   plt.plot(x, Identity(x)()[1], label='identity_backward')
   plt.legend(loc='best')
+  plt.grid()
   plt.show()

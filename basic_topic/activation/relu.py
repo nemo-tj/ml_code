@@ -2,7 +2,7 @@
 # @Author: nemo-tj
 # @Date:   2021-06-06 14:55:41
 # @Last Modified by:   nemo-tj
-# @Last Modified time: 2021-06-06 15:00:52
+# @Last Modified time: 2021-06-06 15:33:20
 
 from header import *
 
@@ -25,4 +25,5 @@ if __name__ == "__main__":
     plt.plot(x, ReLu(x)()[0], label='relu_forward')
     plt.plot(x, ReLu(x)()[1], label='relu_backward')
     plt.legend(loc='best')
+    plt.grid()
     plt.show()

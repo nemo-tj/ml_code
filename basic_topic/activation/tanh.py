@@ -2,7 +2,7 @@
 # @Author: nemo-tj
 # @Date:   2021-06-06 14:50:47
 # @Last Modified by:   nemo-tj
-# @Last Modified time: 2021-06-06 14:55:16
+# @Last Modified time: 2021-06-06 15:33:52
 
 from header import *
 
@@ -25,4 +25,5 @@ if __name__ == '__main__':
   plt.plot(x, Tanh(x)()[0], label ='Tanh forward')
   plt.plot(x, Tanh(x)()[1], label ='Tanh backward')
   plt.legend(loc='best')
+  plt.grid()
   plt.show()
